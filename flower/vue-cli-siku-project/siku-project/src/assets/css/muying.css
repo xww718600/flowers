@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+.all{ height:100%; display:flex; flex-direction:column;background: #fff;}
+
+/*===================== header =================*/
+
+header{ height:.49rem; background:#fff;}
+header .head{ display:flex; height:100%; padding:0 .2rem; justify-content:space-between;}
+header .head li:nth-child(1){ width:.16rem; font-size:20px; color:#000; line-height:.49rem;}
+header .head li:nth-child(2){ width:2.64rem;}
+header .head li:nth-child(2) input{
+    width:100%;
+    height:.34rem;
+    margin-top:.07rem; 
+    border-radius:.04rem;
+    font-size:14px;
+    text-indent: .1rem;
+    border:0; 
+    color:#aaa;
+    background:#f4f4f4 ;}
+header .head li:nth-child(3){ width:.16rem; font-size:24px; color:#000; line-height:.49rem;}
+
+/*===================== nav =================*/
+nav{ height:.39rem;}
+nav .navs{height:100%; display:flex;}
+nav .navs li{ flex:1; text-align:center;}
+nav .navs li a,nav .navs li i{height:.39rem; line-height:.39rem; font-size:15px;color:#151515;display: block;}
+nav .navs li i{color:#fd1705;border-left: 1px solid #f4f4f4; display: inline;padding-left: .12rem;}
+nav .navs li:nth-child(2) a{color:#fd1705;border-bottom: 3px solid #ff290f;}
+
+/*===================== main =================*/
+
+        
+main{flex:1; overflow:auto}
+
+    /* shang */
+main .shang{
+    height:1.98rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+}
+main .shang li{
+    width: 20%;
+    height:50%;
+}
+main .shang li a{ 
+    display:block; 
+    height:100%; 
+    display:flex; 
+    flex-direction:column; 
+    align-items:center; 
+    justify-content:center;
+}
+main .shang li img{
+    width: .48rem;
+    height:.48rem;
+}
+main .shang li span{
+    font-size: 14px;
+    color:#333;
+    margin-top: .1rem;
+}
+
+    /* zhong */
+main .zhong{
+    height:.37rem;
+    line-height:.37rem;
+    width: 100%;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    display: flex;
+    justify-content: space-around;
+}
+main .zhong a span{
+    font-size: 14px;
+    color:#333;
+}
+main .zhong a i{
+    font-size: 1px;
+    color:#c9c9c9;
+}
+main .zhong a:nth-child(1) span,.zhong a:nth-child(1) i{
+    color:#fc2208;
+}
+main .zhong a:nth-child(4) i{
+    font-size: 20px;
+    color:#444;
+}
+
+
+    /* xia */
+main .xia{
+    height:auto;
+    width: 100%;
+}
+main .xia dl{
+    padding:.22rem .12rem 0;
+    display: flex;
+}
+main .xia dl dt img{
+    height:1.36rem;
+    width: 1.36rem;
+}
+main .xia dl dd{
+    padding-left: .1rem;
+}
+main .xia dl dd p:nth-of-type(1){
+    color:#4b4b4b;
+    font-weight: 500;
+}
+main .xia dl dd p:nth-of-type(2){
+    font-size: 14px;
+    color:#fc2208;
+    font-weight: 800;
+    margin-top: .17rem;
+}
+main .xia dl dd p:nth-of-type(2) span{
+    font-size: 12px;
+    color:#ccc;
+    font-weight: 400;
+    padding-left: .06rem; 
+}
+main .xia dl dd p:nth-of-type(3){
+    font-size: 12px;
+    color:#ccc;
+    font-weight: 400;
+    margin-top: .22rem;
+}
+main .xia dl dd img{
+    height:.19rem;
+    width: .5rem;
+    margin-top: .07rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*====================footer===================*/
+
+footer{height:.55rem;}
+footer .foot{height:100%;display:flex;}
+footer .foot li{flex:1;text-align: center;}
+footer .foot li:nth-child(1) a{color:#fc2208}
+footer .foot li a{ display:block;}
+footer .foot li a img{
+  display: block;
+  margin:.05rem auto 0;
+  width: .48rem;
+  height:.42rem;}
+footer .foot li a i{display:block;font-size: 20px;height:.31rem;line-height:.31rem;}
+footer .foot li a span{ display:block; font-size:13px;}

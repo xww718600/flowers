@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+.all{ height:100%; display:flex; flex-direction:column;background: #fff;}
+
+/*===================== header =================*/
+header{
+    width: 100%;
+    height:.47rem;
+    line-height:.47rem;
+}
+header i{
+    font-size: 18px;
+    margin-left:.18rem;
+}
+header span{
+    font-size: 17px;
+    margin-left:.07rem;
+}
+
+/*==================== main ===================*/
+main{flex:1; overflow:auto;background: #f7f7f7;}
+main::-webkit-scrollbar{
+    display: none;
+}
+
+main .tou{
+    height:1.78rem;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+main .tou h1 img{
+    width: .85rem;
+    height:.85rem;
+
+}
+main .tou h2{
+    font-size: 12px;
+    font-weight: 400;
+    color:#aeaeae;
+    margin-top: .12rem;
+}
+
+    /* xiaoxi */
+main .xinxi{
+    height:auto;
+    width: 100%;
+}
+main .xinxi ul{
+    height:.49rem;
+    line-height:.49rem;
+    padding:0 .22rem;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
+main .xinxi ul:nth-of-type(1){
+    border-top: 2px solid #ededed;
+    border-bottom: 2px solid #ededed;
+}
+main .xinxi ul li:nth-of-type(1){
+    font-size: 17px;
+    color:#6b6b6b;
+}
+main .xinxi ul li:nth-of-type(2){
+    font-size: 15px;
+    color:#a9a9a9;
+}
+main .xinxi ul li:nth-of-type(2) i{
+    font-size: 12px;
+    color:#a9a9a9;
+    margin-left: .1rem;
+}
+main .xinxi ul:nth-of-type(2),.xinxi ul:nth-of-type(4),.xinxi ul:nth-of-type(6),.xinxi ul:nth-of-type(8){
+    margin-bottom: .1rem;
+}
+main .xinxi ul:nth-of-type(8) li span{
+    font-size: 14px;
+    color:#a9a9a9;
+    margin-left: .2rem;
+}
+main .xinxi ul:nth-of-type(8) li:nth-of-type(2){
+    font-size: 14px;
+    color:#e15d48;
+
+}
+
+
+
+
+/*==================== footer ===================*/
+footer{height:.45rem;}
+footer h1{
+    height:.45rem;
+    line-height: .45rem;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+

@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+.all{ height:100%; display:flex; flex-direction:column;}
+
+/*===================== header =================*/
+
+header{ height:.49rem; background:#fff;}
+header .head{ display:flex; height:100%;justify-content:center;border-bottom: 1px solid #ccc;}
+header .head li{ }
+header .head li input{
+    width:2.92rem;
+    height:.34rem;
+    margin-top:.07rem; 
+    border-radius:.04rem;
+    font-size:14px;
+    text-indent: .1rem;
+    border:0; 
+    color:#aaa;
+    background:#f4f4f4 ;
+}
+
+/*===================== main =================*/
+main{flex:1;display: flex;}
+main .left{
+    width:1rem;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-right: 1px solid #ccc;
+}
+.left::-webkit-scrollbar{
+    display: none;
+}
+main .left .zuo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:1rem;
+    height:auto;
+}
+main .left .zuo li{
+    font-size: 16px;
+    width:.70rem;
+    height:.30rem;
+    line-height:.30rem;
+    text-align: center;
+    margin:.17rem 0 .26rem;
+}
+main .left .zuo li:nth-child(1){
+    color:#fff;
+    background: #fc2208;
+    border-radius:.15rem;
+}
+main .right{
+    flex:1;
+    height:auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#main .right::-webkit-scrollbar{
+    display: none;
+}
+
+main .right h1{
+    font-size: 14px;
+    font-weight: 400;
+    margin:.25rem 0 .45rem .14rem;
+}
+main .right .xia{
+    display: flex;
+    flex-wrap: wrap;
+}
+main .right .xia dl{
+    flex:1;
+    padding:0 .18rem;
+}
+main .right .xia dt{
+    width: .48rem;
+    height:.48rem;
+}
+main .right .xia dt img{
+    width: .48rem;
+    height:.48rem;
+
+}
+
+main .right .xia dd{
+    font-size: 11px;
+    color:#555;
+    text-align:center;
+    margin-top: .07rem;
+    margin-bottom: .25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*====================footer===================*/
+
+footer{height:.55rem;}
+footer .foot{height:100%;display:flex;}
+footer .foot li{flex:1;text-align: center;}
+footer .foot li:nth-child(2) a{color:#fc2208}
+footer .foot li a{ display:block;}
+footer .foot li a img{
+  display: block;
+  margin:.05rem auto 0;
+  width: .48rem;
+  height:.42rem;}
+footer .foot li a i{display:block;font-size: 20px;height:.31rem;line-height:.31rem;}
+footer .foot li a span{ display:block; font-size:13px;}

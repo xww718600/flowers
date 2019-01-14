@@ -1,0 +1,45 @@
+{
+    "main1":[
+        {
+            "main1Cont1":"昵称",
+            "main1Cont2":"修改",
+            "main1Cont3":""
+        },
+        {
+            "main1Cont1":"我的标签",
+            "main1Cont2":"修改",
+            "main1Cont3":""
+        },
+        {
+            "main1Cont1":"支付宝绑定",
+            "main1Cont2":"未绑定",
+            "main1Cont3":""
+        },
+        {
+            "main1Cont1":"微信绑定",
+            "main1Cont2":"未绑定",
+            "main1Cont3":""
+        },
+        {
+            "main1Cont1":"修改手机号",
+            "main1Cont2":"修改",
+            "main1Cont3":""
+        },
+        {
+            "main1Cont1":"修改密码",
+            "main1Cont2":"修改",
+            "main1Cont3":""
+        },
+        {
+            "main1Cont1":"消息通知",
+            "main1Cont2":"",
+            "main1Cont3":""
+        },
+        {
+            "main1Cont1":"清除缓存",
+            "main1Cont2":"清除缓存",
+            "main1Cont3":"324MB"
+        }
+    ]
+
+}

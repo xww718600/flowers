@@ -1,0 +1,242 @@
+@charset "utf-8";
+
+.all{ height:100%; display:flex; flex-direction:column;}
+
+/*===================== header =================*/
+header{
+    height:.5rem;
+}
+header h1{
+    height:.5rem;
+    width: 100%;
+}
+header i{
+    font-size: 30px;
+    color:#999;
+    height:.5rem;
+    line-height:.45rem;
+    padding-left: .1rem;
+}
+
+/*===================== main =================*/
+main{flex:1;display: flex;flex-direction: column;background: #f7f7f7;overflow: auto;}
+main .dong{
+    width:3.75rem;
+    height:3.55rem;
+}
+main .dong .swing{
+    width:3.75rem;
+    height:3.55rem;
+}
+main .dong .swing{
+    width:100%;
+    height:3.55rem;
+}
+main .dong .swing .swiper-container{
+    width:100%;
+    height:3.55rem;
+}
+main .dong .swing .swiper-container .swiper-slide img{
+    width:100%;
+    height:3.55rem;
+}
+
+    /* aaa */
+main .aaa{
+    width:100%;
+    height:1.47rem;
+    margin-bottom: .1rem;
+    background: #fff;
+}
+main .aaa h1{
+    font-size: 18px;
+    color:#e94138;
+    height:.58rem;
+    line-height:.58rem;
+    padding-left: .15rem;
+}
+main .aaa h1 span:nth-child(1){
+    font-size: 15px;
+    font-weight: 400;
+    color:#fff;
+    background: #e94138;
+    padding:.03rem .15rem;
+    border-radius: .15rem;
+    margin-right: .13rem;
+}
+main .aaa h1 span:nth-child(2){
+    font-size: 15px;
+    font-weight: 400;
+    color:#999;
+    padding-left: .13rem;
+}
+main .aaa .name{
+    display: flex;
+    justify-content: space-around;
+}
+main .aaa .name p{
+    font-size: 14px;
+    color:#000;
+    padding-left: .15rem;
+    padding-right: .1rem;
+}
+main .aaa .name p i{
+    font-size: 14px;
+    color:#e03030;
+    padding-right: .1rem;
+}
+main .aaa .name h2{
+    width: .73rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .aaa .name h2 i{
+    font-size: 22px;
+    font-weight: 200;
+    color:#889;
+}
+main .aaa .name h2 p{
+    font-size: 12px;
+    font-weight: 200;
+    color:#aaa;
+    margin-top: .08rem;
+}
+main .aaa h3{
+    height:.45rem;
+    line-height:.45rem;
+    font-size: 14px;
+    font-weight: 400;
+    color:#aaa;
+    padding-left: .15rem;
+}
+
+    /* xiang */
+main .xiang{
+    width: 100%;
+    height:auto;
+    background: #fff;
+}
+main .xiang h3{
+    width: 100%;
+    height:.46rem;
+    line-height:.46rem;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: .15rem;
+}
+main .xiang img{
+    width: 100%;
+    height:auto;
+}
+
+    /* like */
+main .like{
+    width: 100%;
+    height:auto;
+    background: #fff;
+}
+main .like .likes{
+    padding:0 .1rem;
+}
+main .like h1{
+    width: 100%;
+    height:auto;
+    margin:0 auto;
+}
+main .like h1 img{
+    width: 2.05rem;
+    height:.35rem;
+    margin:0 auto;
+    margin-bottom: .1rem;
+}
+main .like dl{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: .25rem;
+}
+main .like dl dt{
+    width: 1.36rem;
+    height:1.36rem;
+    margin-right: .15rem;
+}
+main .like dl dt img{
+    width: 1.36rem;
+    height:1.36rem;
+}
+main .like dl dd p:nth-of-type(1){
+    font-size: 14px;
+    color:#000;
+
+}
+main .like dl dd p:nth-of-type(2){
+    font-size: 14px;
+    font-weight: 600;
+    color:#fd4948;
+    height:.5rem;
+    line-height:.5rem;
+    
+}
+main .like dl dd p:nth-of-type(2) span{
+    font-size: 12px;
+    font-weight: 200;
+    color:#ccc;
+}
+main .like dl dd p:nth-of-type(3){
+    font-size: 12px;
+    font-weight: 200;
+    color:#ccc;
+}
+main .like dl dd p:nth-of-type(4) img{
+    width: .5rem;
+    height:.2rem;
+    margin-top: .08rem;
+}
+
+
+
+
+
+
+
+
+
+/*====================footer===================*/
+
+footer{
+    height:.51rem; 
+    line-height:.51rem; 
+    display: flex;
+    text-align: center;
+}
+footer h1{
+    width:28%;
+    height:100%;
+    font-size: 18px;
+    font-weight: 100;
+    color:#fff;
+    background-image:linear-gradient(to right,#fcb53f,#fc9718)
+}
+footer h1 i{
+    font-size: 20px;
+    padding-right: .1rem;
+}
+
+footer h2{
+    width:72%;
+    height:100%;
+    font-size: 18px;
+    font-weight: 100;
+    color:#fff;
+    background-image:linear-gradient(to right,#fb5154,#e03030)
+}
+footer h2 i{
+    font-size: 24px;
+    padding-right: .1rem;
+}
+
+
+
+
+

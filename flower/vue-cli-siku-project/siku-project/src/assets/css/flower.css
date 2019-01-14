@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+.all{ height:100%; display:flex; flex-direction:column;}
+
+/*===================== header =================*/
+header{
+    height:.5rem;
+}
+header .head{
+    height:.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+header .head li:nth-child(1){
+    height:.5rem;
+    line-height:.5rem;
+    font-size: 15px;
+    color:#757575;
+}
+header .head li:nth-child(1) i{
+    font-size: 14px;
+    color:#c9c9c9;
+    padding-left: .05rem;
+}
+header .head li:nth-child(2) input{
+    width:2.6rem;
+    height:.34rem;
+    margin-top:.09rem; 
+    border-radius:.04rem;
+    font-size:14px;
+    text-indent: .1rem;
+    border:0; 
+    color:#aaa;
+    background:#f4f4f4;
+}
+
+/*===================== main =================*/
+main{flex:1;display: flex;flex-direction: column;overflow: auto;}
+main::-webkit-scrollbar{
+    display: none;
+}
+main h1{
+    width:100%;
+    height:2.03rem;
+}
+main h1 img{
+    width:100%;
+    height:2.03rem;
+}
+
+   /*  tool */
+main .tool{
+    width:100%;
+    height:2.13rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+main .tool li{
+    width:20%;
+    height:50%;
+    padding-top: .25rem;
+}
+main .tool li a img{
+    width:.49rem;
+    height:.49rem;
+    margin: 0 auto;
+}
+main .tool li a p{
+    font-size: 14px;
+    color:#333;
+    margin-top:.14rem;
+}
+
+    /* near */
+main .jian{
+    width:100%;
+    height:.49rem;
+}
+main .jian img{
+    margin-top: .2rem;
+    width: 100%;
+    height: .49rem;
+}
+main .near  {
+    width:100%;
+    height:auto;
+} 
+main .near dl{
+    display: flex;
+    justify-content: space-between;
+    padding:.15rem .12rem;
+    border-bottom: 2px solid #eee;
+}
+main .near dl dt{
+    padding-right: .12rem;
+}
+main .near dl dt img{
+    width:1.36rem;
+    height:1.36rem;
+    
+}
+main .near dl dd:nth-of-type(1) p:nth-of-type(1){
+    font-size: 18px;
+    font-weight: 600;
+    color:#000;   
+}
+main .near dl dd:nth-of-type(1) p:nth-of-type(2){
+    font-size: 14px;
+    font-weight: 300;
+    color:#444; 
+    height: .3rem; 
+    line-height: .3rem;   
+}
+main .near dl dd:nth-of-type(1) p:nth-of-type(3){
+    font-size: 14px;
+    font-weight: 300;
+    color:#777; 
+    height: .2rem; 
+    line-height: .2rem;   
+}
+main .near dl dd:nth-of-type(2) p:nth-of-type(1){
+    font-size: 14px;
+    font-weight: 300;
+    color:#444; 
+    height: .2rem; 
+    line-height: .2rem;   
+}
+main .near dl dd:nth-of-type(2) p:nth-of-type(2){
+    font-size: 14px;
+    font-weight: 300;
+    color:rgb(207, 40, 40); 
+    height: .8rem; 
+    line-height: .8rem;   
+    text-align: center;
+}
+main .near dl dd:nth-of-type(2) p:nth-of-type(2) span{
+    font-size: 20px;
+    padding-left: .05rem;
+}
+
+
+
+
+
+
+
+
+/*====================footer===================*/
+
+footer{height:.55rem;}
+footer .foot{height:100%;display:flex;}
+footer .foot li{flex:1;text-align: center;}
+footer .foot li a{ display:block;}
+footer .foot li a img{
+  display: block;
+  margin:.05rem auto 0;
+  width: .48rem;
+  height:.42rem;}
+footer .foot li a i{display:block;font-size: 20px;height:.31rem;line-height:.31rem;}
+footer .foot li a span{ display:block; font-size:13px;}
+
+
+
+
+
